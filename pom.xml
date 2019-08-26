@@ -261,4 +261,9 @@
     <url>http://167.71.230.106:8081/nexus/content/repositories/hosted1</url>
   </snapshotRepository>
 </distributionManagement>
+    <server>
+    <id>pet-clinic</id>
+    <username>admin</username>
+    <password>admin123</password>
+ </server>
 </project>
