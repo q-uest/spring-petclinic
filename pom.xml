@@ -255,5 +255,10 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
-
+<distributionManagement>
+  <snapshotRepository>
+    <id>hosted1</id>
+    <url>http://167.71.230.106:8081/nexus/content/repositories/hosted1</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
