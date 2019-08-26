@@ -257,8 +257,8 @@
   </pluginRepositories>
 <distributionManagement>
   <snapshotRepository>
-    <id>hosted1</id>
-    <url>http://167.71.230.106:8081/nexus/content/repositories/hosted1</url>
+    <id>petclinic</id>
+    <url>http://167.71.230.106:8081/repository/petclinic/</url>
   </snapshotRepository>
 </distributionManagement>
 </project>
