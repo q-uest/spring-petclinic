@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>8.0.0.BUILD-SNAPSHOT</version>
+  <version>1.0.0.BUILD-SNAPSHOT</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -257,8 +257,8 @@
   </pluginRepositories>
 <distributionManagement>
   <snapshotRepository>
-    <id>petclinic</id>
-    <url>http://167.71.230.106:8081/repository/petclinic/</url>
+    <id>pcl</id>
+    <url>http://157.245.98.148:8081/repository/pcl/</url>
   </snapshotRepository>
 </distributionManagement>
 </project>
