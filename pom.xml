@@ -32,12 +32,6 @@
   </properties>
 
   <dependencies>
-    <!-- https://mvnrepository.com/artifact/net.java.maven-incremental-build/incremental-build-plugin -->
-    <dependency>
-      <groupId>net.java.maven-incremental-build</groupId>
-      <artifactId>incremental-build-plugin</artifactId>
-      <version>1.4</version>
-    </dependency>
 
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
@@ -119,6 +113,18 @@
 
   <build>
     <plugins>
+     <plugin>
+       <groupId>net.java.maven-incremental-build</groupId>
+ i     <artifactId>incremental-build-plugin</artifactId>
+       <version>1.4</version>
+       <executions>
+         <execution>
+       <goals>
+         <goal>incremental-build</goal>
+       </goals>
+     </execution>
+   </executions>
+   	</plugin>
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
