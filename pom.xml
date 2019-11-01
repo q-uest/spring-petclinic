@@ -115,7 +115,7 @@
     <plugins>
      <plugin>
        <groupId>net.java.maven-incremental-build</groupId>
- i     <artifactId>incremental-build-plugin</artifactId>
+       <artifactId>incremental-build-plugin</artifactId>
        <version>1.4</version>
        <executions>
          <execution>
